@@ -28,8 +28,8 @@ th, td {
 }
 tr{
 	color: white;
-	background: linear-gradient(90deg, black 40%, blue);
+	background: linear-gradient(90deg, black 40%, red);
 }
 .even{
-	background: linear-gradient(90deg, blue, black 60%);
+	background: linear-gradient(90deg, red, black 60%);
 }
