@@ -26,3 +26,10 @@ th, td {
 	margin: 5px 10px;
 	padding: 6px;
 }
+tr{
+	color: white;
+	background: linear-gradient(90deg, black 40%, blue);
+}
+.even{
+	background: linear-gradient(90deg, blue, black 60%);
+}
