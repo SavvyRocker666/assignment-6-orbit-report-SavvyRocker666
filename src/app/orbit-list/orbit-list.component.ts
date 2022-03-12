@@ -8,7 +8,7 @@ import { Satellite } from '../satellite';
 })
 
 export class OrbitListComponent implements OnInit {
-
+  
   @Input() satellites: Satellite[];
   constructor() { }
 
@@ -25,6 +25,15 @@ export class OrbitListComponent implements OnInit {
 			}
 			return 0;
 		});
+	}
+	alternate(satellite){
+		if(satellite){
+			if(this.satellites.indexOf(satellite)%2 === 0){
+				return true;
+			}
+			return false;
+		}
+		return false;
 	}
 
 }
